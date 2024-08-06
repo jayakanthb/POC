@@ -163,7 +163,7 @@ function CardNavigator() {
 
   const currentCard = cardsData[currentIndex];
   return (
-    <Box sx={{ width: "100%", maxWidth: 400, mx: "auto" }}>
+    <Box sx={{ width: "100%", mx: "auto" }}>
       <CardWithArrow
         data={cardsData[currentIndex]}
         onNext={handleNext}
