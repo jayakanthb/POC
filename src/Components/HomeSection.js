@@ -100,18 +100,23 @@ function HomeSection() {
             </Grid>
             <Grid item xs={6}>
               <Card sx={{ minHeight: "80px" }}>
-                <Box>
-                  <Typography
-                    variant="h4"
+                <Box
+                  component="div"
+                  className="home-section-header"
+                  sx={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
+                >
+                  <Typography>Payment in Last 7 days (my-view)</Typography>
+                  <Box
                     component="div"
-                    className="home-section-header"
+                    sx={{ display: "flex", alignItems: "center" }}
                   >
-                    Payment in Last 7 days (my-view)
-                    <Typography variant="span" sx={{ marginLeft: "65px" }}>
-                      <FilterAltIcon />
-                      <OpenInFullIcon />
-                    </Typography>
-                  </Typography>
+                    <FilterAltIcon />
+                    <OpenInFullIcon />
+                  </Box>
                 </Box>
 
                 <CardContent>

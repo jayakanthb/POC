@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Card, CardContent, Typography, IconButton } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import CachedIcon from "@mui/icons-material/Cached";
 
 const cardsData = [
   {
@@ -19,8 +20,10 @@ const cardsData = [
     title: "999",
     stat: "pending sent to bank",
     title1: "8",
+    stat1: "pending Repare",
     title2: "888",
     stat2: "Pending Auth",
+    stat3: "Payment",
   },
 ];
 // Add more cards as needed
@@ -140,6 +143,13 @@ function CardWithArrow({ data, onNext, onPrev }) {
               </Typography>
             </Typography>
           </Box>
+        </Box>
+        <Box className="payment-footer">
+          <CachedIcon
+            className="outline-icon"
+            sx={{ fontSize: "10px", marginRight: "5px" }}
+          />
+          Last Updated 17/07/2024 04:09:41 pm
         </Box>
       </CardContent>
       <IconButton onClick={onNext} aria-label="next">

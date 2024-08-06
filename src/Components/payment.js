@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import CachedIcon from "@mui/icons-material/Cached";
 
 import BasicBars from "../Components/Barchart";
 import { Typography } from "@mui/material";
@@ -75,6 +76,13 @@ export default function BasicTabs() {
               reject by bank
             </Typography>
           </Box>
+        </Box>
+        <Box className="pending-footer">
+          <CachedIcon
+            className="outline-icon"
+            sx={{ fontSize: "10px", marginRight: "5px" }}
+          />
+          Last Updated 17/07/2024 04:09:41 pm
         </Box>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
