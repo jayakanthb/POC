@@ -193,7 +193,12 @@ function HomeSection() {
             <CardContent>
               <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                 <Box>
-                  <Typography gutterBottom variant="p" component="div">
+                  <Typography
+                    gutterBottom
+                    variant="p"
+                    component="div"
+                    sx={{ color: "#1976d2" }}
+                  >
                     Lizard
                   </Typography>
                   <Typography
