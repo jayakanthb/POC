@@ -6,6 +6,25 @@
     color: #fff;
 }
 
+.home_header_maincontainer{
+    margin: 10px 25px;
+}
+.home_header_containers{
+    margin-bottom: 15px !important;
+}
+.homesection_header_typo{
+    color: #1976d2;
+    font-size: 16px;
+}
+.homeSection_subtext{
+    color: gray;
+    font-size: 14px;
+}
+.homeSection_cardContent{
+    display: flex ;
+    justify-content: space-between ;
+}
+
 .pending-task{
     font-size: 12px;
     padding-left: 5px;

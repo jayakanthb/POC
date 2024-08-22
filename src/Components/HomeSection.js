@@ -27,8 +27,8 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function HomeSection() {
   return (
-    <Box sx={{ margin: "10px 25px" }}>
-      <Button variant="contained" sx={{ marginBottom: "15px" }}>
+    <Box className="home_header_maincontainer">
+      <Button variant="contained" className="home_header_containers">
         Home
       </Button>
       <Grid container spacing={1}>
@@ -48,7 +48,7 @@ function HomeSection() {
                     gutterBottom
                     variant="p"
                     component="div"
-                    sx={{ color: "#1976d2", fontSize: "16px" }}
+                    className="homesection_header_typo"
                   >
                     Q000Qa7 | cut of time 2hrs
                   </Typography>
@@ -56,7 +56,7 @@ function HomeSection() {
                     gutterBottom
                     variant="p"
                     component="div"
-                    sx={{ color: "gray", fontSize: "14px" }}
+                    className="homeSection_subtext"
                   >
                     KRW 701
                   </Typography>
@@ -73,9 +73,7 @@ function HomeSection() {
                 >
                   Priority Message
                 </Typography>
-                <CardContent
-                  sx={{ display: "flex", justifyContent: "space-between" }}
-                >
+                <CardContent className="homeSection_cardContent">
                   <Typography gutterBottom variant="p" component="div">
                     Bill payments Report - Korea Bills
                   </Typography>
