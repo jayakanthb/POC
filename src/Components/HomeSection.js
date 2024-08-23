@@ -108,10 +108,7 @@ function HomeSection() {
                   }}
                 >
                   <Typography>Payment in Last 7 days (my-view)</Typography>
-                  <Box
-                    component="div"
-                    sx={{ display: "flex", alignItems: "center" }}
-                  >
+                  <Box component="div" className="homeSection_paymentBox">
                     <FilterAltIcon />
                     <OpenInFullIcon />
                   </Box>

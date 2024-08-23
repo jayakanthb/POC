@@ -24,6 +24,10 @@
     display: flex ;
     justify-content: space-between ;
 }
+.homeSection_paymentBox{
+    display: flex;
+    align-items: center;
+}
 
 .pending-task{
     font-size: 12px;
