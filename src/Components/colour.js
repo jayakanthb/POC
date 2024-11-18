@@ -7,7 +7,9 @@ function Colour() {
     email: "",
   });
   function handelColour() {
-    setColour((prevColour) => (prevColour === "black" ? "red" : "black"));
+    setColour((prevColour) => {
+      prevColour === "black" ? "red" : "black";
+    });
   }
 
   const handleChange = (event) => {

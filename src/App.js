@@ -1,18 +1,19 @@
 import "./App.css";
-import Navbar from "../src/Components/Navbar";
-// import Colour from "../src/Components/colour";
-// import HomeSection from "./Components/HomeSection";
+// import Navbar from "../src/Components/Navbar";
+
 // import TodoList from "./Components/Todo";
-import NewList from "./Components/NewList";
+
+// import Weather from "./Components/Weather/weathers";
+import Table from "./Components/NewTable/Table";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* <HomeSection />
-      <TodoList />
-      <Colour /> */}
-      <NewList />
+      {/* <Navbar /> */}
+      {/* <Weather /> */}
+
+      {/* <TodoList /> */}
+      <Table />
     </div>
   );
 }
