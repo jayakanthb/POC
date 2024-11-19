@@ -6,6 +6,8 @@ import "./App.css";
 // import Weather from "./Components/Weather/weathers";
 import Table from "./Components/NewTable/Table";
 
+import SignInForm from "./Components/Form/Form";
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +15,7 @@ function App() {
       {/* <Weather /> */}
 
       {/* <TodoList /> */}
+      {/* <SignInForm /> */}
       <Table />
     </div>
   );
